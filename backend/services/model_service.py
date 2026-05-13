@@ -63,7 +63,7 @@ class ModelService:
         """Initialize the actual Gemini API for predictions"""
         try:
             # Configure Gemini API
-            genai.configure(api_key='AIzaSyAJ_a5SIP_pLxVsF5XRaZg9ibNIoWIiGZw')
+            genai.configure(api_key=)
             self.gemini_model = genai.GenerativeModel('gemini-2.0-flash-exp')
             logger.info("✓ Backend prediction engine initialized")
         except Exception as e:
