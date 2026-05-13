@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { getLanguageByCode, getDefaultLanguage } from '../constants/languages';
 
 // Initialize Gemini API
-const genAI = new GoogleGenerativeAI("AIzaSyBotDObEKxmGEVO8CCLrwf_0Rktz8SZq2s");
+const genAI = ;
 
 
 /**
